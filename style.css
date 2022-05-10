@@ -281,7 +281,10 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    display: flex;
 }
+
+
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -315,12 +318,7 @@ a:hover {
     margin: 0;
 }
 
-.navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
-    float: right;
-    z-index: 1;
-}
+
 
 .nav > li {
     float: left;
@@ -363,13 +361,13 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
+    /*.site-navigation {
         position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }
+    }*/
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -654,10 +652,10 @@ a {
     color: #575757!important;
 }
 
-.container {
+/*.container {
     max-width: 1000px;
 }
-
+*/
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -771,15 +769,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364577;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +796,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #364577!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1040,3 +1039,141 @@ h4 {
         text-align: center;
     }
 }
+
+
+/*Modification apportée*/
+
+
+#bloc-0 .container{
+ 
+    width:100%;
+    text-align: center;
+    
+}
+#bloc-0 .container a {
+    text-decoration: none;
+}
+
+#bloc-0 .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  
+}
+
+.col-sm-12{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+/*BLoc 6*/
+
+
+.tx-noir h1, .tx-noir p {
+    text-align: center;
+  
+    
+}
+.col-sm-12 h1 {
+    font-size:2.7em;
+}
+.col-sm-12 p {
+    font-size:1.3em;
+    max-width:800px;
+}
+
+/*BLoc 7*/
+#bloc-7 .row {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  
+   
+}
+
+#bloc-7 .row label, #bloc-7 .row p {
+    font-size: 1.3em;
+}
+#bloc-7 h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.col-sm-12 p {
+margin:auto;
+}
+
+@media screen and (max-width: 900px) {
+    #bloc-7 .row {
+        flex-direction:column;
+        width:100%;s
+      
+       
+    }
+
+    .col-sm-6 {
+        margin:auto;
+        width: 90%;
+      
+       
+    }
+    
+    .contact-orange p{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+
+
+
+
+
+/*Barre navigation tel*/
+
+@media screen and (max-width: 767px) {
+.navbar  {
+    display: block!important;
+}
+}
+
+/*ancien texte sous forme d'image*/
+.ancienne-image {
+    font-size : 1.5em;
+    Color: grey;
+
+}
+.citation {
+    font-size : 1.5em;
+    font-style: italic;
+
+
+}
+.citation__signature {
+    font-size : 1.2em;
+    font-style: italic;
+
+}
+
+/*icones sociaux*/
+.social a{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+/*focus accessibilité*/
+button:focus,a:focus {
+ 
+    border:10px black solid;
+    padding:5px;
+  }
+
+  .padding-top-augmenter:focus {
+    padding-top:30px;
+  }
+
+
