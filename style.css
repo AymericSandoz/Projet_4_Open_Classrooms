@@ -738,6 +738,7 @@ h4 {
 }
 
 .portfolio-thumb {
+ 
     margin-bottom: 24px;
 }
 
@@ -817,12 +818,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere_rogné_comp.jpg");
 }
-
+/*
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
-}
+}          Enleevr car non utilisée*/
 
 @media (max-width: 1024px) {
     .bloc {
@@ -839,9 +840,9 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
+    /*.navbar .nav {
         max-width: 80%
-    }
+    }*/
     .nav-center.navbar .nav {
         max-width: 100%
     }
@@ -1190,5 +1191,16 @@ button:focus,a:focus {
   .padding-top-augmenter:focus {
     padding-top:30px;
   }
+
+
+  /*centrer img tablette*/ 
+  @media screen and (max-width: 992px) {
+  .portfolio-thumb {
+    margin:auto;
+    margin-bottom: 24px;
+    background-color:green;
+}
+  }
+
 
 
