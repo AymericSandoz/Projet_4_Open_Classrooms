@@ -1202,5 +1202,15 @@ button:focus,a:focus {
 }
   }
 
+ /*Enlever les styles du html*/ 
+ .logo-panthere-svg
+  {
+      height: 40px;
+    }
+
+    .logo-la-panthere {
+        width:100px;
+    }
+
 
 
