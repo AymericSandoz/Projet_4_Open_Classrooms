@@ -8,8 +8,8 @@ https://aymericsandoz.github.io/Projet_4_Open_Classrooms/index
 
 ## Objectifs et Compétences évaluées
 
-Augmenter le trafic d'un site web grâce aux référencencement naturel. 
-
-Optimiser le référencement d'un site grâce en améliorement ses performances techniques. 
-
-Concervoir un site web accessible.
+-Optimiser la taille et la vitesse d’un site web
+-Réaliser une recherche des bonnes pratiques en développement web
+-Écrire un code HTML et CSS maintenable
+-Assurer l'accessibilité d'un site web
+-Optimiser le référencement d'un site web
